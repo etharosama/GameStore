@@ -1,0 +1,26 @@
+:root{
+  --orange : #F4C915 ;
+  --red : #D11318 ;
+  --darkred : #841A11 ;
+  --green :#71B62C ;
+  --blue : #5DC0C6 ;
+  --ligthyellow :#D8AB76 ;
+  --mainWhite : #FFFBF1 ;
+  --maindark :#33100E ;
+}
+body{
+  font-family: 'Comic Neue', cursive !important;
+  background: var(--mainWhite) !important ;
+  color:  var(--maindark) !important ;
+}
+.text-tital {
+  font-family: 'Play', sans-serif;
+  letter-spacing: 0.3rem ;
+  text-transform: uppercase;
+}
+.text-litte-red {
+  color:  var(--red) ;
+}
+.text-dark-red {
+  color:  var(--darkred) ;
+}
